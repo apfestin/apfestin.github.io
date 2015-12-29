@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("symphony.png");
+}
+
+.page {
+  margin: 10% 150px 0px 150px;
+  
+}
+.description {
+  background-color: white;
+  padding: 15px 50px 20px 50px;
+  opacity: 0.6;
+  line-height: 30px
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 500%;
+}
+
+.name {
+  font-family: 'Lobster', cursive;
+  font-size: 120%;
+  margin-left: 5px;
+  letter-spacing: 0.05em;
+}
+.icon-links {
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+.icon-links a {
+  color: #EF3C59;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.bullet.pink {
+  border: 1px solid #F62459;
+  background-color: #F62459;
+}
+
+.bullet.green {
+  border: 1px solid #3AD6AE;
+  background-color: #3AD6AE;
+}
+
+.bullet.yellow {
+  border: 1px solid #FAD46B;
+  background-color: #FAD46B;
+}
+
+/* Background pattern from subtlepatterns.com */
