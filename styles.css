@@ -1,18 +1,20 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("symphony.png");
+  background-color: #fce4ec;
 }
 
 .page {
-  margin: 10% 150px 0px 150px;
+  margin: 3% 150px 0px 150px;
   
 }
 .description {
+  margin-top: 30px;
   background-color: white;
-  padding: 15px 50px 20px 50px;
+  padding: 30px 50px 30px 50px;
   opacity: 0.6;
-  line-height: 30px
+  line-height: 30px;
+  font-family: 'Verdana';
 }
 
 .logo {
@@ -28,13 +30,17 @@ body {
 }
 .icon-links {
   margin-top: 10px;
-  font-size: 23px;
 }
 
 .icon-links a {
+
   color: #EF3C59;
   text-decoration: none;
-  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.icon-links i {
+  font-size: 32px;
 }
 
 .bullet {
